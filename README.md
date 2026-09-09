@@ -19,7 +19,7 @@ El proyecto sigue el estándar moderno de análisis de datos:
 
 ## 🛠️ Stack Tecnológico
 * **Lenguaje:** Python 3.x
-* **Manipulación y ETL:** Pandas, NumPy
+* **Manipulación y ETL:** Pandas
 * **Base de Datos:** PostgreSQL
 * **Conexión y ORM:** SQLAlchemy, Psycopg2
 * **Visualización de Datos:** Power BI
