@@ -28,6 +28,7 @@ El proyecto sigue el estándar moderno de análisis de datos:
 
 ## 📂 Estructura del Repositorio
 ```text
+├── dashboard/               # Archivo .pbix del reporte ejecutivo
 ├── data/
 │   ├── raw/                 # Datos transaccionales originales (CSV)
 │   └── processed/           # Datos limpios y normalizados listos para consumo
@@ -38,5 +39,4 @@ El proyecto sigue el estándar moderno de análisis de datos:
 │   ├── 01_schema.sql        # Creación de tablas, llaves primarias y foráneas
 │   ├── 02_views.sql         # Creación de la vista maestra para Power BI
 │   └── 03_analysis.sql      # Consultas SQL analíticas (Top clientes, categorías, etc.)
-├── dashboard/               # Archivo .pbix del reporte ejecutivo
 └── README.md
