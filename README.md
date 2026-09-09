@@ -34,5 +34,9 @@ El proyecto sigue el estándar moderno de análisis de datos:
 ├── scripts/
 │   ├── etl_limpieza.ipynb   # Notebook de auditoría, limpieza y validación
 │   └── cargar_a_postgres.py # Script de automatización para inserción en DB
+├── sql/
+│   ├── 01_schema.sql        # Creación de tablas, llaves primarias y foráneas
+│   ├── 02_views.sql         # Creación de la vista maestra para Power BI
+│   └── 03_analysis.sql      # Consultas SQL analíticas (Top clientes, categorías, etc.)
 ├── dashboard/               # Archivo .pbix del reporte ejecutivo
 └── README.md
